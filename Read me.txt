@@ -1,0 +1,15 @@
+This is a script that automates the tinder swipes
+this uses the the concepts of web scraping patterns + a finite state machine
+
+REQUIREMENTS:
+Copy chrome driver to this folder 
+
+
+RUN:
+python -i main.py 
+bot=TinderBot()
+#to login using phone and OTP
+bot.login()
+#for the actual swiping to happen 
+bot.autoswipe()
+
